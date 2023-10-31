@@ -1,0 +1,128 @@
+/* Estilo Geral */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: #F9F7F7;
+    font-family:Arial, Helvetica, sans-serif;
+    height: 100vh;
+}
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.flex{
+    display: flex;
+}
+.btn-contato button{
+    padding: 10px 30px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #B5A883;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .2s;
+}
+h2.Titulo{
+    color: #191970;
+    font-size: 38px;
+    text-align: center;
+
+}
+h2.Titulo span{
+    color: #B5A883;
+}
+
+/* Estilo cabeçalho */
+
+header {
+    padding: 40px 4%;
+}
+header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header a{
+    color: #191970;
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+}
+header a:hover{
+    color: #191970;
+    transform: scale(1.10);
+}
+header nav ul{
+    list-style: none;
+}
+header nav ul li{
+    display: inline-block;
+    padding: 0px 40px;
+}
+.btn-contato button:hover{
+    box-shadow: opx opx 8px #191970;
+    transform: scale(1.05);
+}
+
+
+/* Estilo topo site */
+
+section.topo-do-site{
+    padding: 40px 4%;
+}
+section.topo-do-site .flex{
+    align-items: center;
+    justify-content: center;
+    gap:100px;
+    line-height: 50px;
+}
+.topo-do-site h1{
+    color:#B5A883;
+    font-size: 38px;
+    line-height: 40px;
+}
+.topo-do-site .txt-topo-site p{
+    color: #191970;
+    margin: 40px 0;
+    
+}
+.topo-do-site .img-topo-site img {
+    position: relative;
+    animation: flutuar 2s ease-in-out infinite alternate;
+}
+
+@keyframes flutuar {
+    0%{
+        top:0;
+    }
+    100%{
+        top:30px;
+    }
+}
+/* Estilo especialidades */
+
+section.especialidades{
+    padding: 40xp 4%;
+}
+
+.especialidades.especialidades-box{
+    color: #191970;
+    padding: 40px;
+
+}
+.especialidades.especialidades-box i{
+    font-size: 70px;
+    color: #B5A883
+
+}
+.especialidades.especialidades-box h3{
+    font-size: 28px;
+    color: #191970
+
+}
